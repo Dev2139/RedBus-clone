@@ -18,7 +18,6 @@
     padding-right: 16px;
     padding-top: 16px;
     row-gap: 16px;
-
     text-size-adjust: 100%;
     unicode-bidi: isolate;
     width: 300px;
@@ -38,5 +37,248 @@
     width: 1136px;
     -webkit-box-pack: justify;
     -webkit-box-align: center;
+}
+.webCursorel{
+    box-sizing: border-box;
+    color: rgb(74, 74, 74);
+    column-gap: 24px;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serifs;
+    font-size: 14px;
+    font-weight: 400;
+    height: 200.667px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    overflow-y: hidden;
+    row-gap: 24px;
+    scroll-behavior: smooth;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    width: 1136px;
+}
+.webCorsorels{
+    display: flex;
+    gap: 24px;
+    margin-top: 30px;
+}
+.viewAll{
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgb(170, 170, 170);
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom-style: solid;
+    border-bottom-width: 0.666667px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(170, 170,170);
+    border-left-style: solid;
+    border-left-width: 0.666667px;
+    border-right-color: rgb(170, 170,170);
+    border-right-style: solid;
+    border-right-width: 0.666667px;
+    border-top-color: rgb(170, 170,170);
+    border-top-style: solid;
+    border-top-width: 0.666667px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px 0px;
+    box-sizing: border-box;
+    color: rgb(16, 52, 217);
+    cursor: pointer;
+    display: block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    height: 43.3333px;
+    outline-color: rgb(16, 52, 217);
+    outline-style: none;
+    outline-width: 0px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 10px;
+    text-decoration-color: rgb(16, 52, 217);
+    text-decoration-line: none;
+    text-decoration-thickness: auto;
+    text-size-adjust: 100%;
+    width: 123.896px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 
+}
+.scroller1{
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 25px 0px;
+    box-sizing: border-box;
+    color: rgb(74, 74, 74);
+    column-gap: 32px;
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 32px;
+    position: relative;
+    row-gap: 32px;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    width: 1200px;
+    justify-self: center;
+}
+.offerSectionHeader{
+    box-sizing: border-box;
+    color: rgb(29, 29, 29);
+    display: block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    height: 39px;
+    line-height: 39px;
+    margin-block-end: opx;
+    margin-block-start: opx;
+    margin-bottom: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    width: 278.938px;
+}
+.offerCardRightSection{
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    column-gap: 8px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    height: 134.667px;
+    row-gap: 8px;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    width: 180px;
+}
+.BusinessUnitText{
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(255, 255, 255, 0.2);
+    background-image: none;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: block;
+    padding-top: 4px ;
+    padding-bottom: 4px ;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    width: 41.9357px;
+}
+.offerCardCodeSection{
+    align-items: center;    
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    column-gap: 12px;
+    cursor: pointer;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    height: 24px;
+    row-gap: 12px;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    width: 180px;
+    -webkit-box-align: center;
+
+}
+.OfferCardCode{
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(255, 255, 255, 0.2);
+    background-image: none;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+    border-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    border-style: dashed;
+    border-width: 0.666667px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    height: 24px;
+    text-align: center;
+    width: 30%;
+}
+.scrollers{
+    display: flex;
+    justify-content:space-between;
+}
+.right{
+    background-color: aqua;
+    border-radius: 40px;
+    height:60px;
+    width: 60px;
+    align-content: center;
+    justify-items: center;
+}
+.left{
+    background-color: aqua;
+    border-radius: 40px;
+    height:60px;
+    width: 60px;
+    align-content: center;
+    justify-items: center;
+}
+.offerCard1:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+}
+
+
+.webCursorel {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+}
+
+.webCursorel::-webkit-scrollbar {
+    display: none; 
 }
