@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedBus</title>
+    <link rel="stylesheet" href="redbus.css">
+    <script src="offers.js" defer></script>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><img src="images/Tags/logo1.png" alt="" height="48" width="80"></div>
+        <div class="rb1">
+            <div class="busnavigator">
+                <div class="logo2"><img src="images/Tags/white.png" alt="" height="20" width="30"></div>
+                <div class="text">Bus Tickets</div>
+            </div>
+        </div>
+        <div class="rb2">
+            <div class="railnavigator">
+                <div class="logo2"><img src="images/Tags/rail_vertical.png" alt=""></div>
+                <div class="text">Train Tickets</div>
+            </div>
+        </div>
+        <div class="links">
+            <div class="help">
+                <div class="img"><img src="images/Tags/headphone-alt-svgrepo-com.svg" alt="" height="22" width="22"></div>
+                <div class="txt">Help</div>
+            </div>
+            <div class="language">
+                <div class="img"><img src="images/Tags/language-svgrepo-com.svg" alt="" height="22" width="22"></div>
+                <div class="txt">language</div>
+            </div>
+            <div class="account">
+                <div class="img"><img src="images/Tags/user-alt-1-svgrepo-com.svg" alt="" height="22" width="22"></div>
+                <div class="txt">Account</div>
+            </div>
+        </div>
+    </nav>
+    <div class="section1">
+        <div class="background"><img src="images/Tags/banner.webp" alt="" width="1263" height="520"></div>
+        <div class="heading1"><h3>India's No. 1 Online Bus Ticket Booking Site</h3></div>
+        <div class="searchbus">
+            <div class="from">
+                <div class="img2"><img src="images/Tags/bus-svgrepo-com.svg" alt="" height="30" width="30"></div>
+                <div class="txt2"> <input type="text" name="" placeholder="FROM" id="input"></div>
+            </div>
+            <div class="swapper"></div>
+            <div class="to">
+                <div class="img2"><img src="images/Tags/bus-svgrepo-com.svg" alt="" height="30" width="30"></div>
+                <div class="txt2"><input type="text" name="" placeholder="TO" id="input"></div>
+            </div>
+            <div class="date">
+                <div class="img2"><img src="images/Tags/calender-svgrepo-com.svg" alt="" height="30" width="30"></div>
+                <div class="txt2"><input type="date" name="" id="input"></div>
+            </div>
+            <div class="searchbutton">
+                <div class="search"><button><h3>Search Buses</h3></button></div>
+            </div>
+        </div>
+    </div>
+    <div class="section2">
+        <div class="txt">
+            <div class="offers">TRENDING OFFERS</div>
+            <div class="button">View All</div>
+        </div>
+        <div class="coupans" id="coupans">
+            <div class="offer one">
+                <div class="part1"><div class="tag"><img src="images/Tags/4.png" alt=""></div></div>
+                <div class="part2"><div class="BUS">BUS</div>
+                <div class="txtmain">Save up to Rs 350 on <br>bus tickets.</div>
+                <div class="valid">Valid till 27 Oct</div>
+                <div class="lst">
+                    <div class="code">DIWALI350</div>
+                    <div class="copy"><img src="images/Tags/copy-svgrepo-com.svg" alt="" height="22"></div>
+                </div></div>
+            </div>
+            <div class="offer two">
+                <div class="part1"><div class="tag"><img src="images/Tags/10.png" alt=""></div></div>
+                <div class="part2"><div class="BUS">BUS</div>
+                <div class="txtmain">Save up to Rs 300 on<br>bus tickets</div>
+                <div class="valid">Valid till 01 Nov</div>
+                <div class="lst">
+                    <div class="code">BUS300</div>
+                    <div class="copy"><img src="images/Tags/copy-svgrepo-com.svg" alt="" height="22"></div>
+                </div></div>
+            </div>
+            <div class="offer three">
+                <div class="part1"><div class="tag"><img src="images/Tags/9.png" alt=""></div></div>
+                <div class="part2">
+                    <div class="BUS">BUS</div>
+                    <div class="txtmain">Save up to Rs 300 on <br>AP, TS routes</div>
+                    <div class="valid">Valid till 01 Nov</div>
+                    <div class="lst">
+                        <div class="code">SUPERHIT</div>
+                        <div class="copy"><img src="images/Tags/copy-svgrepo-com.svg" alt="" height="22"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="offer four">
+                <div class="part1"><div class="tag"><img src="images/Tags/6.png" alt=""></div></div>
+                <div class="part2"><div class="BUS">BUS</div>
+                <div class="txtmain">Save up to Rs 200 on <br>Primo operators.</div>
+                <div class="valid">Valid till 31 Oct</div>
+                <div class="lst">
+                    <div class="code">PRIMO200</div>
+                    <div class="copy"><img src="images/Tags/copy-svgrepo-com.svg" alt="" height="22"></div>
+                </div></div>
+            </div>
+            <div class="offer five">
+                <div class="part1"><div class="tag"><img src="images/Tags/7.png" alt=""></div></div>
+                <div class="part2"><div class="BUS">BUS</div>
+                <div class="txtmain">Save up to Rs 500 on <br>with ICICI.</div>
+                <div class="valid">Valid till 25 Oct</div>
+                <div class="lst">
+                    <div class="code">ICICI500</div>
+                    <div class="copy"><img src="images/Tags/copy-svgrepo-com.svg" alt="" height="22"></div>
+                </div></div>
+            </div>
+            <div class="offer six">
+                <div class="part1"><div class="tag"><img src="images/Tags/3.png" alt=""></div></div>
+                <div class="part2"><div class="BUS">BUS</div>
+                <div class="txtmain">Save up to Rs 300 on <br>Charted Bus.</div>
+                <div class="valid">Valid till 01 Nov</div>
+                <div class="lst">
+                    <div class="code">CHARTED15</div>
+                    <div class="copy"><img src="images/Tags/copy-svgrepo-com.svg" alt="" height="22"></div>
+                </div></div>
+            </div>
+            <div class="offer seven">
+                <div class="part1"><div class="tag"><img src="images/Tags/8.png" alt=""></div></div>
+                <div class="part2"><div class="BUS">BUS</div>
+                <div class="txtmain">Save 25% up to Rs<br>100 on SBSTC bus</div>
+                <div class="valid">Valid till 01 Nov</div>
+                <div class="lst">
+                    <div class="code">SBNEW</div>
+                    <div class="copy"><img src="images/Tags/copy-svgrepo-com.svg" alt="" height="22"></div>
+                </div></div>
+            </div>
+            <div class="offer eight">
+                <div class="part1"><div class="tag"><img src="images/Tags/RAJKOT30080X80.png" alt=""></div></div>
+                <div class="part2"><div class="BUS">BUS</div>
+                <div class="txtmain">Save up to Rs 300 on <br>routes from RAJKOT.</div>
+                <div class="valid">Valid till 01 Jan</div>
+                <div class="lst">
+                    <div class="code">RAJKOT300</div>
+                    <div class="copy"><img src="images/Tags/copy-svgrepo-com.svg" alt="" height="22"></div>
+                </div></div>
+            </div>
+            <div class="offer nine">
+                <div class="part1"><div class="tag"><img src="images/Tags/SURAT300-80X80.png" alt=""></div></div>
+                <div class="part2"><div class="BUS">BUS</div>
+                <div class="txtmain">Save up to Rs 300 on <br>routes from SURAT.</div>
+                <div class="valid">Valid till 01 Jan</div>
+                <div class="lst">
+                    <div class="code">SURAT300</div>
+                    <div class="copy"><img src="images/Tags/copy-svgrepo-com.svg" alt="" height="22"></div>
+                </div></div>
+            </div>
+            <div class="offer ten">
+                <div class="part1"><div class="tag"><img src="images/Tags/5.png" alt=""></div></div>
+                <div class="part2"><div class="BUS">BUS</div>
+                <div class="txtmain">Save up to Rs 50 on <br>IntrCity SmartBus.</div>
+                <div class="valid">Valid till 31 Oct</div>
+                <div class="lst">
+                    <div class="code">SMARTBUS50</div>
+                    <div class="copy"><img src="images/Tags/copy-svgrepo-com.svg" alt="" height="22"></div>
+                </div></div>
+            </div>
+            <div class="offer eleven">
+                <div class="part1"><div class="tag"><img src="images/Tags/1.png" alt=""></div></div>
+                <div class="part2"><div class="BUS">BUS</div>
+                <div class="txtmain">Save up to Rs 100 on<br>Kallada Travels <br>.</div>
+                <div class="valid">Valid till 31 Oct</div>
+                <div class="lst">
+                    <div class="code">KRS100</div>
+                    <div class="copy"><img src="images/Tags/copy-svgrepo-com.svg" alt="" height="22"></div>
+                </div></div>
+            </div>
+            <div class="offer twelve">
+                <div class="part1"><div class="tag"><img src="images/Tags/2.png" alt=""></div></div>
+                <div class="part2"><div class="BUS">BUS</div>
+                <div class="txtmain">Save up to Rs 250 on <br>bus tickets.</div>
+                <div class="valid">Valid till 01 Nov</div>
+                <div class="lst">
+                    <div class="code">FIRST</div>
+                    <div class="copy"><img src="images/Tags/copy-svgrepo-com.svg" alt="" height="22"></div>
+                </div></div>
+            </div>
+            <!-- Add more offers here, maintaining the same structure -->
+        </div>
+    </div>
+    <div class="section3">
+        <div class="txt">
+            <div class="offers">GOVERNMENT BUSES</div>
+            <div class="button">View All</div>
+        </div>
+        <div class="statebus">
+            <div class="state1">
+                <div class="box1">
+                    <div class="statelg"><img src="images/state/15499.png" alt="" height="50"></div>
+                    <div class="name">
+                        <div class="english"><h3>RSRTC</h3></div>
+                        <div class="lang">राजस्थान स्टेट रोड ट्रांसपोर्ट कॉर्पोरशन</div>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="maintxt2">6000 services includig Deluxe,<br>Ordinary and more</div>
+                    <div class="off">
+                        <div class="lg"><img src="images/Tags/logo1.png" alt="" height="16" width="25"></div>
+                        <div class="ln">Official booking partner of RSRTC</div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="reff">Use code FIRST to save upto  ₹250 (only for first time users) </div>
+                </div>
+            </div>
+            <div class="state1">
+                <div class="box1">
+                    <div class="statelg"><img src="images/state/16426 (1).png" alt="" height="50"></div>
+                    <div class="name">
+                        <div class="english"><h3>WBTC</h3></div>
+                        <div class="lang">পশ্চিমবঙ্গ রাষ্ট্রীয় পরিবহণ নিগম</div>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="maintxt2">120 services including Volvo Bus, AC &<br>Non AC Bus and more</div>
+                    <div class="off">
+                        <div class="lg"><img src="images/Tags/logo1.png" alt="" height="16" width="25"></div>
+                        <div class="ln">Official booking partner of WBTC</div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="reff">Use code FIRST to save upto  ₹250 (only for first time users) </div>
+                </div>
+            </div>
+            <div class="state1">
+                <div class="box1">
+                    <div class="statelg"><img src="images/state/16374.png" alt="" height="50"></div>
+                    <div class="name">
+                        <div class="english"><h3>SBSTC</h3></div>
+                        <div class="lang">দক্ষিণবঙ্গ রাষ্ট্রীয় পরিবহণ সংস্থা</div>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="maintxt2">480 services including Volvo Bus, AC &<br>Non AC Bus and more</div>
+                    <div class="off">
+                        <div class="lg"><img src="images/Tags/logo1.png" alt="" height="16" width="25"></div>
+                        <div class="ln">Official booking partner of SBSTC</div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="reff">Use code FIRST to save upto  ₹250 (only for first time users) </div>
+                </div>
+            </div>
+            <div class="state1">
+                <div class="box1">
+                    <div class="statelg"><img src="images/state/15443.png" alt="" height="50"></div>
+                    <div class="name">
+                        <div class="english"><h3>WBSTC</h3></div>
+                        <div class="lang">পশ্চিমবঙ্গ রাষ্ট্রীয় পরিবহণ নিগম</div>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="maintxt2">20 services including Volvo Bus, AC &<br>Non AC Bus and more</div>
+                    <div class="off">
+                        <div class="lg"><img src="images/Tags/logo1.png" alt="" height="16" width="25"></div>
+                        <div class="ln">Official booking partner of WBSTC</div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="reff">Use code FIRST to save upto  ₹250 (only for first time users) </div>
+                </div>
+            </div>
+            <div class="state1">
+                <div class="box1">
+                    <div class="statelg"><img src="images/state/16227.png" alt="" height="50"></div>
+                    <div class="name">
+                        <div class="english"><h3>HRTC</h3></div>
+                        <div class="lang">हिमाचल रोड ट्रान्सपोर्ट कॉर्पोरेशन</div>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="maintxt2">480 services including Himgaurav,<br>Himmani and more</div>
+                    <div class="off">
+                        <div class="lg"><img src="images/Tags/logo1.png" alt="" height="16" width="25"></div>
+                        <div class="ln">Official booking partner of HRTC</div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="reff">Use code FIRST to save upto  ₹250 (only for first time users) </div>
+                </div>
+            </div>
+            <div class="state1">
+                <div class="box1">
+                    <div class="statelg"><img src="images/state/11060.png" alt="" height="50"></div>
+                    <div class="name">
+                        <div class="english"><h3>PEPSU</h3></div>
+                        <div class="lang">ਪੈਪਸੂ ਰੋਡ ਟਰਾਂਸਪੋਰਟ ਕਾਰਪੋਰੇਸ਼ਨ</div>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="maintxt2">100 services including Volvo Bus, AC &<br>Non AC Bus and more</div>
+                    <div class="off">
+                        <div class="lg"><img src="images/Tags/logo1.png" alt="" height="16" width="25"></div>
+                        <div class="ln">Official booking partner of PEPSU</div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="reff">Use code FIRST to save upto  ₹250 (only for first time users) </div>
+                </div>
+            </div>
+            <div class="state1">
+                <div class="box1">
+                    <div class="statelg"><img src="images/state/10283.png" alt="" height="50"></div>
+                    <div class="name">
+                        <div class="english"><h3>APSRTC</h3></div>
+                        <div class="lang">ఆంధ్రప్రదేశ్ రాష్ట్ర రోడ్డు రవాణా సంస్థ</div>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="maintxt2">1539 services including Garuda, Garuda<br>Plus and more</div>
+                    <div class="off">
+                        <div class="lg"><img src="images/Tags/logo1.png" alt="" height="16" width="25"></div>
+                        <div class="ln">Official booking partner of APSRTC</div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="reff">Use code FIRST to save upto  ₹250 (only for first time users) </div>
+                </div>
+            </div>
+            <div class="state1">
+                <div class="box1">
+                    <div class="statelg"><img src="images/state/18491.png" alt="" height="50"></div>
+                    <div class="name">
+                        <div class="english"><h3>TGSRTC</h3></div>
+                        <div class="lang">తెలంగాణ రాష్ట్ర రోడ్డు రవాణా</div>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="maintxt2">1450 services including Garuda Plus,<br>Rajdhani and morE</div>
+                    <div class="off">
+                        <div class="lg"><img src="images/Tags/logo1.png" alt="" height="16" width="25"></div>
+                        <div class="ln">Official booking partner of TGSRTC</div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="reff">Use code FIRST to save upto  ₹250 (only for first time users) </div>
+                </div>
+            </div>
+            <div class="state1">
+                <div class="box1">
+                    <div class="statelg"><img src="images/state/24978.png" alt="" height="50"></div>
+                    <div class="name">
+                        <div class="english"><h3>KERALA RTC</h3></div>
+                        <div class="lang">കേരള സ്റ്റേറ്റ് റോഡ് ട്രാൻസ്പോർട്ട് കോർപ്പറേഷൻ</div>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="maintxt2">940 services including Swift, AC<br>Multiaxle and more</div>
+                    <div class="off">
+                        <div class="lg"><img src="images/Tags/logo1.png" alt="" height="16" width="25"></div>
+                        <div class="ln">Official booking partner of KSRTC</div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="reff">Use code FIRST to save upto  ₹250 (only for first time users) </div>
+                </div>
+            </div>
+            <div class="state1">
+                <div class="box1">
+                    <div class="statelg"><img src="images/state/25187.png" alt="" height="50"></div>
+                    <div class="name">
+                        <div class="english"><h3>KAAC Transport</h3></div>
+                        <div class="lang">পশ্চিমবঙ্গ রাষ্ট্রীয় পরিবহণ নিগম</div>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="maintxt2">20 services including Volvo Bus, AC &<br>Non AC Bus and more</div>
+                    <div class="off">
+                        <div class="lg"><img src="images/Tags/logo1.png" alt="" height="16" width="25"></div>
+                        <div class="ln">Official booking partner of KAAC</div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="reff">Use code FIRST to save upto  ₹250 (only for first time users) </div>
+                </div>
+            </div>
+            <div class="state1">
+                <div class="box1">
+                    <div class="statelg"><img src="images/state/16081.png" alt="" height="50"></div>
+                    <div class="name">
+                        <div class="english"><h3>ASTC</h3></div>
+                        <div class="lang">পশ্চিমবঙ্গ রাষ্ট্রীয় পরিবহণ নিগম</div>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="maintxt2">20 services including Volvo Bus, AC &<br>Non AC Bus and more</div>
+                    <div class="off">
+                        <div class="lg"><img src="images/Tags/logo1.png" alt="" height="16" width="25"></div>
+                        <div class="ln">Official booking partner of ASTC</div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="reff">Use code FIRST to save upto  ₹250 (only for first time users) </div>
+                </div>
+            </div>
+            <div class="state1">
+                <div class="box1">
+                    <div class="statelg"><img src="images/state/7115.png" alt="" height="50"></div>
+                    <div class="name">
+                        <div class="english"><h3>KTCL</h3></div>
+                        <div class="lang">পশ্চিমবঙ্গ রাষ্ট্রীয় পরিবহণ নিগম</div>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="maintxt2">20 services including Volvo Bus, AC &<br>Non AC Bus and more</div>
+                    <div class="off">
+                        <div class="lg"><img src="images/Tags/logo1.png" alt="" height="16" width="25"></div>
+                        <div class="ln">Official booking partner of KTCL</div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="reff">Use code FIRST to save upto  ₹250 (only for first time users) </div>
+                </div>
+            </div>
+            <div class="state1">
+                <div class="box1">
+                    <div class="statelg"><img src="images/state/24978.png" alt="" height="50"></div>
+                    <div class="name">
+                        <div class="english"><h3>NSBSTC</h3></div>
+                        <div class="lang">পশ্চিমবঙ্গ রাষ্ট্রীয় পরিবহণ নিগম</div>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="maintxt2">20 services including Volvo Bus, AC &<br>Non AC Bus and more</div>
+                    <div class="off">
+                        <div class="lg"><img src="images/Tags/logo1.png" alt="" height="16" width="25"></div>
+                        <div class="ln">Official booking partner of NSBSTC</div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="reff">Use code FIRST to save upto  ₹250 (only for first time users) </div>
+                </div>
+            </div>
+            <div class="state1">
+                <div class="box1">
+                    <div class="statelg"><img src="images/state/11044.png" alt="" height="50"></div>
+                    <div class="name">
+                        <div class="english"><h3>UPSRTC</h3></div>
+                        <div class="lang">পশ্চিমবঙ্গ রাষ্ট্রীয় পরিবহণ নিগম</div>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="maintxt2">20 services including Volvo Bus, AC &<br>Non AC Bus and more</div>
+                    <div class="off">
+                        <div class="lg"><img src="images/Tags/logo1.png" alt="" height="16" width="25"></div>
+                        <div class="ln">Official booking partner of UPSRTC</div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="reff">Use code FIRST to save upto  ₹250 (only for first time users) </div>
+                </div>
+            </div>
+            <div class="state1">
+                <div class="box1">
+                    <div class="statelg"><img src="images/state/27455.png" alt="" height="50"></div>
+                    <div class="name">
+                        <div class="english"><h3>CTURTC</h3></div>
+                        <div class="lang">পশ্চিমবঙ্গ রাষ্ট্রীয় পরিবহণ নিগম</div>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="maintxt2">20 services including Volvo Bus, AC &<br>Non AC Bus and more</div>
+                    <div class="off">
+                        <div class="lg"><img src="images/Tags/logo1.png" alt="" height="16" width="25"></div>
+                        <div class="ln">Official booking partner of CTURTC</div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="reff">Use code FIRST to save upto  ₹250 (only for first time users) </div>
+                </div>
+            </div>
+            <div class="state1">
+                <div class="box1">
+                    <div class="statelg"><img src="images/state/29176.png" alt="" height="50"></div>
+                    <div class="name">
+                        <div class="english"><h3>JKSRTC</h3></div>
+                        <div class="lang">পশ্চিমবঙ্গ রাষ্ট্রীয় পরিবহণ নিগম</div>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="maintxt2">20 services including Volvo Bus, AC &<br>Non AC Bus and more</div>
+                    <div class="off">
+                        <div class="lg"><img src="images/Tags/logo1.png" alt="" height="16" width="25"></div>
+                        <div class="ln">Official booking partner of JKSRTC</div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="reff">Use code FIRST to save upto  ₹250 (only for first time users) </div>
+                </div>
+            </div>
+            <div class="state1">
+                <div class="box1">
+                    <div class="statelg"><img src="images/state/17889.png" alt="" height="50"></div>
+                    <div class="name">
+                        <div class="english"><h3>BSRTC</h3></div>
+                        <div class="lang">পশ্চিমবঙ্গ রাষ্ট্রীয় পরিবহণ নিগম</div>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="maintxt2">20 services including Volvo Bus, AC &<br>Non AC Bus and more</div>
+                    <div class="off">
+                        <div class="lg"><img src="images/Tags/logo1.png" alt="" height="16" width="25"></div>
+                        <div class="ln">Official booking partner of BSRTC</div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="reff">Use code FIRST to save upto  ₹250 (only for first time users) </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+    <div class="section4">
+        <div class="left">
+            <div class="heading2"><h1>NOW, <strong>GET MORE THAN<br>JUST BUS</strong> TICKETS WITH<br>REDBUS!</h1></div>
+            <div class="tt">
+                <div class="lgtrain"><img src="images/Tags/rail_vertical.png" alt="" width="50" height="28"></IMG></div>
+                <div class="tttxt">Train Tickets</div>
+            </div>
+            <hr class="styled-line">
+            <div class="abouttt">
+                <div class="normaltxt">Book IRCTC Train Tickets on redRail simple & superfast booking<br>process with no service fee + no payment gateway charge.</div>
+                <div class="bold1">
+                    <div class="img"><img src="images/rail/1.png" alt=""></div>
+                    <div class="boldtxt">Authorised IRCTC Partner</div>
+                </div>
+                <div class="bold2">
+                    <div class="img"><img src="images/rail/2.png" alt=""></div>
+                    <div class="boldtxt">Instant refunds on UPII payments</div>
+                </div>
+                <div class="bold3">
+                    <div class="img"><img src="images/rail/3.png" alt=""></div>
+                    <div class="boldtxt">Hassle-fre customer support</div>
+                </div>
+            </div>
+            <div class="buttontt">Book Train Tickets</div>
+        </div>
+        <div class="right"><img src="images/rail/railPop.webp" alt=""></div>
+    </div>
+    <div class="section5">
+        
+        <div class="white">
+            <div class="heading3"><h3>ENJOY THE APP!</h3></div>
+            <div class="what">
+                <div class="what1"><img src="images/rail/tick.png" alt="">Quick access</div>
+                <div class="what2"><img src="images/rail/tick.png" alt="">Superior live tracking</div>
+                <div class="count">
+                    <div class="count1">
+                        <div class="rate">4.5</div>
+                        <div class="user">50M+ downloads</div>
+                        <div class="where">Play Store</div>
+                    </div>
+                    <div class="count2">
+                        <div class="rate">4.6</div>
+                        <div class="user">50M+ downloads</div>
+                        <div class="where">App Store</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scanner">
+            <div class="scantxt">Scan to<br>download</div>
+            <div class="scanimg"><img src="images/rail/qrImage.png" alt=""></div>
+        </div>
+        <div class="download">
+            <div class="downtxt">Download the<br>App on</div>
+            <div class="play"><img src="images/rail/playStore.png" alt=""></div>
+            <div class="app"><img src="images/rail/appStore.png" alt=""></div>
+        </div>
+    </div>
+    <div class="section6">
+        <div class="left2"><img src="images/rail/primoHomeBannerComp.png" alt="" height="552px" style="border-radius: 30px;" ></div>
+            <div class="right2">
+                <div class="point1">
+                    <div class="pic"><img src="images/rail/clock-lines-svgrepo-com.svg" alt=""></div>
+                    <div class="txt2">
+                        <div class="dark">On time</div>
+                        <div class="light">Punctual arrivals on 95% trips</div>
+                    </div>
+                </div>
+                <div class="point1">
+                    <div class="pic"><img src="images/rail/friend-2-svgrepo-com.svg" alt=""></div>
+                    <div class="txt2">
+                        <div class="dark">Friendly Staff</div>
+                        <div class="light">Always ready to help</div>
+                    </div>
+                </div>
+                <div class="point1">
+                    <div class="pic"><img src="images/rail/star-svgrepo-com (1).svg" alt=""></div>
+                    <div class="txt2">
+                        <div class="dark">Top Rated</div>
+                        <div class="light">Buses with  4+ star rating</div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="section7">
+        <div class="heading4">Global Presence</div>
+        <div class="contries">
+            <div class="country1">
+                <div class="flag"><img src="images/countries/Colombia.png" alt=""></div>
+                <div class="cname">Colombia</div>
+            </div>
+            <div class="country1">
+                <div class="flag"><img src="images/countries/India.png" alt=""></div>
+                <div class="cname">India</div>
+            </div>
+            <div class="country1">
+                <div class="flag"><img src="images/countries/Indonesia.png" alt=""></div>
+                <div class="cname">Indonesia</div>
+            </div>
+            <div class="country1">
+                <div class="flag"><img src="images/countries/Malaysia.png" alt=""></div>
+                <div class="cname">Malaysia</div>
+            </div>
+            <div class="country1">
+                <div class="flag"><img src="images/countries/Peru.png" alt=""></div>
+                <div class="cname">Peru</div>
+            </div>
+            <div class="country1">
+                <div class="flag"><img src="images/countries/Singapore.png" alt=""></div>
+                <div class="cname">Singapore</div>
+            </div>
+            <div class="country1">
+                <div class="flag"><img src="images/countries/Vietnam.png" alt=""></div>
+                <div class="cname">Vietnam</div>
+            </div>
+            <div class="country1">
+                <div class="flag"><img src="images/countries/Cambodia.png" alt=""></div>
+                <div class="cname">Cambodia</div>
+            </div>
+              
+            
+        </div>
+    </div>
+    <div class="section8">
+        <div class="heading5">BOOK BUS TICKETS ONLINE</div>
+        <div class="txt4">redBus is India's largest brand for online bus ticket booking and offers an easy-to-use online bus and train ticket booking; with <br>over 36 million satisfied customers, 3500+ bus operators to choose from, and plenty of offers on bus ticket booking, redBus<br>makes road journeys super convenient for travellers. A leading platform for booking bus tickets, redBus has been the leader<br>in online bus booking over the past 17 years across thousands of cities and lakhs of routes in India.<br><br>Booking a bus ticket online on the redBus app or website is very simple. You can download the redBus app or visit redbus.in and<br> enter your source, destination & travel date to check the top-rated bus services available. You can then compare bus prices, user<br>ratings & amenities, select your preferred seat, boarding & dropping points and pay using multiple payment options like UPI,<br>debit or credit card, net banking and more. With redBus, get assured safe & secure payment methods and guaranteed travel<br>with the best s.. <strong>Read more</strong></div>
+    </div>
+    <div class="section9">
+        <div class="heading6">Bus Booking redDeals on redBus</div>
+        <div class="txt5">Don't miss out on these incredeble offers, book your bus tickets noe and travel with convience and affordibility. Hurry, grab<br>the best bus booking deals before they're gone! </div>
+        <div class="box4">
+            <div class="logo3"><img src="images/Tags/logo1.png" alt="" height="50px"></div>
+            <div class="txt6">
+                <div class="heading7">Unlock Unbeatable Exclusive redDeals <div class="red">20% OFF</div></div>
+                <div class="numbers">
+                    <div class="first">
+                        <div class="red">3949</div>
+                        <div class="black">Deals</div>
+                    </div>
+                    <div class="second">
+                        <div class="red">1767</div>
+                        <div class="black">Bus Operators</div>
+                    </div>
+                    <div class="third">
+                        <div class="red">361698</div>
+                        <div class="black">Routes</div>
+                    </div>
+                </div>
+            </div>
+            <div class="button2">Book now</div>
+        </div>
+    </div>
+    <div class="section10">
+        <div class="heading8">FAQs related to Bus Tickets Booking</div>
+        <div class="navigators">
+            <div class="general">General</div>
+            <div class="ticket">Ticket-related</div>
+            <div class="payment">Payment</div>
+            <div class="refund">Cancellation & Refund</div>
+            <div class="insurance">Insurance</div>
+        </div>
+        <div class="questions">
+            <div class="Q1">Can I track the location of my booked bus online?</div>
+            <div class="Q1">What are the advantages of Booking tickets on redBus?</div>
+            <div class="Q1">Why book bus tickets online on redBus?</div>
+            <div class="Q1">Do I need to create an account on redbus site to book my ticket online on redBus?</div>
+            <div class="Q1">Does bus booking online cost me more?</div>
+            <div class="Q1">How can I get the discounts on the bus booking?</div>
+            <div class="Q1">What's new on bus booking on redBus?</div>
+            <div class="Q1">Can I book goverment buses on redBus?</div>
+        </div>
+    </div>
+    <div class="section11">
+        <div class="footer">
+            <div class="popular"></div>
+        </div>
+    </div>
+</body>
+</html>
