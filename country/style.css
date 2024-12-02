@@ -54,3 +54,14 @@
 .glbalPresenceGeoTitle :hover{
     background-color: #f0f0f0;
 }
+button{
+    color: red;
+    height: 100px;
+    width: 200px;
+    font-size: 50px;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
